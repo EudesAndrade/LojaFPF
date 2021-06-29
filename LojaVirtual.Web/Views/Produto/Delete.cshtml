@@ -1,0 +1,50 @@
+﻿@model LojaVirtual.Web.Models.Produtos
+
+@{ ViewBag.Title = "Delete"; }
+
+<div class="modal-dialog">
+
+    <div class="modal-content">
+        <h3 style="margin-left: 20px;">Tem certeza de que deseja excluir este Produto?</h3>
+        <div>
+            <h4></h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Descricao)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Quantidade)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Quantidade)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Valor)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Valor)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+@Html.AntiForgeryToken()
+
+                <div class="form-actions no-color" style="margin-left: 20px; margin-bottom: 20px;" >
+                    <input type="submit" value="Sim" class="btn btn-default" /> |
+                    @Html.ActionLink("Não", "Index")
+                </div>}
+        </div>
+    </div><!-- /.modal-content -->
+
+</div><!-- /.modal-dialog -->
