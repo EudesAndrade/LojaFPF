@@ -26,25 +26,23 @@ As tarefas foram divididas da seguinte forma:
 
 1 - Instalar o Microsoft Visual Studio Community.
 
-2 - Criar na raiz do disco local C a Pasta LojaVirtual.
+2 - Clicar no linq do repositório enviado por email.
 
-3 - Clicar no linq do repositório enviado por email.
+3 - Clicar em clone or download em seguida open in visual studio -> Clicar em abri microsoft Visual.... 
 
-4 - Clicar em clone or download em seguida open in visual studio -> Clicar em abri microsoft Visual.... 
+4 - Aguarde o visual studio abrir e carregar as configurações.
 
-5 - Aguarde o visual studio abrir e carregar as configurações.
+5 - Visual studio-> na aba Team Explore e aponte o diretório de pastar que você criou logo acima C:\LojaVirtual -> Clicar em Clonar -> aguarde a baixa dos objetos.
 
-6 - Visual studio-> na aba Team Explore e aponte o diretório de pastar que você criou logo acima C:\LojaVirtual -> Clicar em Clonar -> aguarde a baixa dos objetos.
+6 - Clicar duas vezes em LojaVirtual.sln (para abrir a solução)
 
-7 - Clicar duas vezes em LojaVirtual.sln (para abrir a solução)
-
-8 - Criar o banco com o arquivo CriarBancosql.sql
+7 - Criar o banco com o arquivo CriarBancosql.sql
   - No arquivo Web.Config atentar para mudar o Data Souce(intancia do sql-server local)
   <connectionStrings>
     <add name="LojaVirtual" connectionString="Data Source=ITB002231N;Initial Catalog=DBFpf;Integrated Security=True" providerName="System.Data.SqlClient" />
   </connectionStrings>
 
-9 - Execute a aplicação dando um start -> cadastre produtos, liste,edite, exclua e veja em detalhes.
+8 - Execute a aplicação dando um start -> cadastre produtos, liste,edite, exclua e veja em detalhes.
 
 
 
