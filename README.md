@@ -36,7 +36,7 @@ As tarefas foram divididas da seguinte forma:
 
 6 - Clicar duas vezes em LojaVirtual.sln (para abrir a solução)
 
-7 - Criar o banco com o arquivo CriarBancosql.sql
+7 - Criar o banco com o arquivo CriarBancosql.sql (criar um nova consulta e Executar o script do aquivo no bancos de dados(master))
   - No arquivo Web.Config atentar para mudar o Data Souce(intancia do sql-server local)
   <connectionStrings>
     <add name="LojaVirtual" connectionString="Data Source=ITB002231N;Initial Catalog=DBFpf;Integrated Security=True" providerName="System.Data.SqlClient" />
