@@ -20,7 +20,7 @@ As tarefas foram divididas da seguinte forma:
 
 2 - Dia -> Estudos de novas tecnologias(12hs), Criando o projeto Asp.Net MVC - Loja Virtual - Desenvolvimento (4hs).
 
-3 - Dia -> Aprimoramentos e testes na aplicação e check in no repositório(8hs), criação do arquivo README(4hs)
+3 - Dia -> Aprimoramentos e testes na aplicação e check in no repositório(8hs), criação do arquivo README(1hs)
 
 # Das instruções para configuração e utilização da aplicação
 
